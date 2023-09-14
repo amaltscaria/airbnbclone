@@ -434,7 +434,7 @@ input:checked + .slider:before {
 
 
 .content {
-    padding-top: 60px; /* Add padding equal to the height of the fixed header */
+    padding-top: 210px; /* Add padding equal to the height of the fixed header */
     /* Other styles for your content */
 }
 .pointer,.im{
