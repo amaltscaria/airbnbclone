@@ -1,0 +1,445 @@
+body {
+  margin: 0;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helevtica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+/* header -section */
+.header {
+  padding: 11px 80px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: #ff385c;
+  font-size: 23px;
+  cursor: pointer;
+}
+.logo > b {
+  padding-left: 5px;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  width: 348px;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 25px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 25px;
+}
+.header-button button {
+  width: 107px;
+  border-right: 1px solid #ccc;
+  height: 25px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.header-right li {
+  list-style: none;
+  /* margin-right: 20px; */
+}
+.user-nav-icon {
+  display: flex;
+  width: 60px;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 25px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 25px;
+}
+button {
+  width: 70px;
+  height: 40px;
+  justify-content: space-between;
+  text-align: left;
+  background-color: white;
+  border: none;
+}
+.y {
+  padding-right: 10px;
+}
+#search {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  width: 70px;
+}
+.navbar2 {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding: 10px 90px 10px 90px;
+}
+.imgdiv {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+hr {
+  margin: 0;
+}
+.im {
+  height: 30px;
+}
+.a {
+  width: 322.4px;
+  height: 306.27px;
+  border-radius: 5%;
+}
+.a:hover {
+  cursor: pointer;
+}
+.carousel-main {
+  /* position: fixed; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 80px;
+  height: 4564.75px;
+}
+.pictext {
+  color: #717171;
+}
+.pictext2 {
+  font-size: 18px;
+}
+.carousel-slide p {
+  margin: 10px;
+}
+
+.carousel-container {
+  height: 406.28px;
+  width: 322.4px;
+}
+.carousel-slide {
+  position: relative;
+  display: inline-block; /* This ensures the container takes up only as much space as the image */
+}
+
+.overlay-button {
+  position: absolute;
+  top: 35%; /* Adjust the vertical position */
+  left: 6%; /* Adjust the horizontal position */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the button horizontally and vertically*/
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.9s ease; /* Smooth transition effect */
+  background-color: white;
+  color: white;
+  /* padding: 10px 20px; */
+  border-radius: 100%;
+  cursor: pointer;
+  width: 40px;
+  text-align: center;
+  padding: 0 0 3px 0;
+}
+.overlay-button:nth-child(2) {
+  top: 35%; /* Adjust the top position for the second button */
+  left: 300px; /* Adjust the left position for the second button */
+  padding: 3px 4px 0 0;
+}
+
+.carousel-slide:hover .overlay-button {
+  opacity: 1; /* Show the button on hover */
+}
+.poda {
+  color: black;
+}
+
+.love-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 280px; /* Adjust the right position as needed */
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  width: 8%;
+  border-radius: 70%;
+
+  height: 4%;
+}
+.brok {
+  background: none;
+  border: none;
+  color: g;
+  overflow: visible;
+  /* color:white; */
+}
+
+.showmorebtn {
+  text-align: center;
+  width: 8%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 0px 10px;
+}
+.btnbtn {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* types section  */
+.types {
+  padding: 48px 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #f7f7f7;
+  padding: 48px 80px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helevtica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+.popular {
+  border-bottom: 1px solid black;
+  padding-bottom: 21px;
+  /* height: 10px; */
+}
+.type01 > h4 {
+  margin: 0px;
+}
+.type01 > p {
+  margin: 0 0 5px 0;
+}
+.type01 > h4 {
+  margin: 0 0 5px 0;
+}
+.type01 {
+  width: 800px;
+  height: 156px;
+  padding: 48px 0px 0px 0px;
+  /* border-top: 1px solid; */
+}
+.types-head ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.types-head li {
+  padding-right: 20px;
+}
+.types-head-alone {
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+}
+.type1 {
+  display: flex;
+}
+/* support section */
+
+.supportdiv {
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 0px 80px;
+  border-top: 1px solid #ccc;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helevtica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+.support {
+  width: 448.54px;
+  padding: 48px 0px;
+}
+.support p {
+  color: #717171;
+}
+.type01 p {
+  color: #717171;
+}
+/* footer section */
+.mainfooter {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.footer {
+  display: flex;
+  height: 68.81px;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  width: 1361.6px;
+}
+.footerleft {
+  display: flex;
+}
+.footerright > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.footerright li {
+  padding-left: 10px;
+  /* text-decoration: none; */
+  font-size: 15px;
+}
+.globeclass {
+  color: black;
+}
+.header-button i {
+  color: white;
+  font-size: 20px;
+}
+.magnify-icon {
+  background-color: #ff385c;
+  border-radius: 50%;
+  width: 30px;
+  text-align: center;
+}
+.navbar2 button {
+  border: 1px solid #ccc;
+}
+.button-x {
+  width: 165px;
+  border: none !important;
+  cursor: pointer;
+}
+.filter-div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+  padding: 10px 0px 10px 10px;
+  height: 29px;
+  border-radius: 15px;
+  width: 70px;
+}
+.filter-div img {
+  height: 13px;
+}
+.filter-btn {
+  border: none !important;
+  padding-right: 0;
+  cursor: pointer;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(13px);
+}
+.switch-btn {
+  /* margin:0px; */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 205px;
+  padding-left: 7px;
+  height: 48px;
+  
+}
+.end-btn {
+  display: flex;
+  /* cursor: pointer; */
+}
+.header-container {
+    position: fixed;
+    /* top: 0; */
+    /* left: 0; */
+    width:1521.6px;
+    padding-right: 80px;
+    margin-right: 50px;
+    /* padding :20px 0px; */
+    /* padding: 0 80px; */
+    background-color: #fff; /* Customize as needed */
+    /* color: #fff; Customize as needed */
+    /* padding: 10px; Add padding to create space below the fixed header */
+    z-index: 100; /* Ensure the header is above other elements */
+}
+
+
+.content {
+    padding-top: 60px; /* Add padding equal to the height of the fixed header */
+    /* Other styles for your content */
+}
+.pointer,.im{
+    cursor: pointer;
+}
+.logo a{
+    color:#ff385c;
+}
