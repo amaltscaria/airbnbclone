@@ -439,7 +439,11 @@ input:checked + .slider:before {
 }
 .pointer,.im{
     cursor: pointer;
+  text-align:center;
 }
 .logo a{
     color:#ff385c;
+}
+.add-guest-btn{
+  color: #717171;
 }
